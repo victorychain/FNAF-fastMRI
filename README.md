@@ -6,6 +6,10 @@ Implementaion for ["Adversarial Robust Training of Deep Learning MRI Reconstruct
 
 
 
+Code adapted from [Official FastMRI](https://github.com/facebookresearch/fastMRI) and [I-RIM for FastMRI](https://github.com/pputzky/irim_fastMRI).
+
+
+
 ## Abstract
 
 Deep Learning has shown potential in accelerating Magnetic Resonance Image acquisition and reconstruction. Nevertheless, there is a dearth of tailored methods to guarantee that the reconstruction of small features is achieved with high fidelity. In this work, we employ adversarial attacks to generate small synthetic perturbations that when added to the input MRI, they are not reconstructed by a trained DL reconstruction network. Then, we use robust training to increase the network's sensitivity to small features and encourage their reconstruction.
@@ -14,10 +18,6 @@ Next, we investigate the generalization of said approach to real world features.
 ## Design of the Proposed Model
 
 ![model](images/adversarialattack_net.png)
-
-## Annotation example
-
-![annotation](images/example_annotation.png)
 
 ## Requirements
 
